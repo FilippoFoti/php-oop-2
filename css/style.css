@@ -1,0 +1,23 @@
+main h1 {
+    background-color: #ffd500;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+img {
+    max-width: 60%;
+}
+
+p {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+span {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+i {
+    font-size: 1.2rem;
+}

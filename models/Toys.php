@@ -15,8 +15,8 @@ class Toys extends Products {
      * @param string $_type
      * @param string $_material
      */
-    function __construct($_name, $_description, $_quantity, $_price, $_category, $_type, $_material) {
-        parent::__construct($_name, $_description, $_quantity, $_price, $_category);
+    function __construct($_name, $_description, $_quantity, $_price, $_category, $_img, $_type, $_material) {
+        parent::__construct($_name, $_description, $_quantity, $_price, $_category, $_img);
         $this->type = $_type;
         $this->material = $_material;
     }

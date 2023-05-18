@@ -11,6 +11,7 @@ class Products {
     public $quantity;
     public $price;
     public $category;
+    public $img;
 
     /**
      * @param string $_name
@@ -18,13 +19,15 @@ class Products {
      * @param float $_quantity
      * @param float $_price
      * @param string $_category
+     * @param string $_img
      */
-    function __construct($_name, $_description, $_quantity, $_price, $_category) {
+    function __construct($_name, $_description, $_quantity, $_price, $_category, $_img) {
         $this->name = $_name;
         $this->description = $_description;
         $this->quantity = $_quantity;
         $this->price = $_price;
         $this->category = $_category;
+        $this->img = $_img;
     }
 }
 ?>
