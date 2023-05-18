@@ -12,7 +12,7 @@
                             <h2 class="card-title">Prodotto: <?php echo $prodotto->name; ?></h2>
                             <p class="card-text m-0">Descrizione: <span><?php echo $prodotto->description; ?></span></p>
                             <p class="card-text m-0">Quantità: <span><?php echo $prodotto->quantity; ?></span></p>
-                            <p class="card-text m-0">Prezzo: <span>€<?php echo $prodotto->price; ?></span></p>
+                            <p class="card-text m-0">Prezzo: <span>€<?php echo $prodotto->getPrice(); ?></span></p>
                             <p class="card-text m-0">Categoria: <span><?php echo $prodotto->category->category; ?></span></p>
                         </div>
                     </div>

@@ -7,7 +7,6 @@ require_once __DIR__ . "/models/Toys.php";
 require_once __DIR__ . "/models/Categories.php";
 require_once __DIR__ . "/models/db.php";
 
-
 ?>
 
 <!DOCTYPE html>
